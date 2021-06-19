@@ -2,6 +2,13 @@ package com.anuradha.profileservice.Services;
 
 import rentcloud.commons.model.Customer;
 
+
 public interface CustomerService {
-    Customer save(Customer customer);
+
+    Customer addCustomer(Customer customer);
+
+    Customer getCustomer(Integer id);
+
+    void deleteCustomer(Integer id);
+
 }
