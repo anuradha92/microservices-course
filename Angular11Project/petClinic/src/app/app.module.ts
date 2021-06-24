@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
-import {ProductsModule} from './products/products.module';
 import {MainPageModule} from './main-page/main-page.module';
 import {PetOwnerModule} from './pet-owner/pet-owner.module';
 import {PetClinicModule} from './pet-clinic/pet-clinic.module';
@@ -18,7 +17,6 @@ import {DataService} from './data.services';
   imports: [
     BrowserModule,
     HttpClientModule,
-    ProductsModule,
     PetOwnerModule,
     PetClinicModule,
     FooterModule,
